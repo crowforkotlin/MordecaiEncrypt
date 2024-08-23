@@ -18,7 +18,7 @@ import com.crow.mordecai.encrypt.app
  * @formatter:off
  *************************/
 
-const val TIPS_TAG = "PasteMangaX"
+const val TIPS_TAG = "MordecaiFileEncrypt"
 
 fun Any?.log(tag: String = TIPS_TAG) {
     Log.i(tag, this.toString())
