@@ -4,13 +4,27 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/mordecaiXor-plugin-gradle" name="mordecaiXor-plugin-gradle">
+                <projects>
+                  <project path="$PROJECT_DIR$/mordecaiXor-plugin-gradle" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
         <option name="testRunner" value="CHOOSE_PER_TEST" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/composeApp" />
+            <option value="$PROJECT_DIR$/mordecai-api" />
+            <option value="$PROJECT_DIR$/mordecai-compile" />
+            <option value="$PROJECT_DIR$/mordecaiXor-plugin-gradle" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
